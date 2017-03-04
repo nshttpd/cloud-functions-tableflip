@@ -1,0 +1,5 @@
+{
+    "SLACK_TOKEN": "[SLACK_TOKEN]",
+    "SLACK_WEBHOOK": "[SLACK_WEBHOOK]",
+    "NO_RAGE": false
+}

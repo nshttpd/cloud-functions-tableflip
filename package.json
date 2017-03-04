@@ -1,0 +1,29 @@
+{
+  "name": "cloud-functions-tableflip",
+  "version": "0.0.1",
+  "description": "Cloud Functions Slack Tableflip",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nshttpd/cloud-functions-tableflip.git"
+  },
+  "keywords": [
+    "slack",
+    "cloud-functions",
+    "tableflip",
+    "bot"
+  ],
+  "author": "nshttpd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nshttpd/cloud-functions-tableflip/issues"
+  },
+  "homepage": "https://github.com/nshttpd/cloud-functions-tableflip#readme",
+  "dependencies": {
+    "flip": "^1.0.0",
+    "request": "^2.79.0"
+  }
+}
