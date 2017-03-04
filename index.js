@@ -46,7 +46,7 @@ exports.tableFlip = function tableFlip(req, res) {
     }).then((response) => {
         request.post({
             url: config.SLACK_WEBHOOK,
-            form: { payload: JSON.stringify(payload) }
+            form: { payload: JSON.stringify(response) }
         }, function (err, resp, body) {
             if (err) {
                 const error = new Error('{ success: false, error: err.message }');
