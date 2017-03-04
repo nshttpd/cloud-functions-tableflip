@@ -54,6 +54,7 @@ exports.tableFlip = function tableFlip(req, res) {
                 throw error;
             }
         })
+        res.end();
     }).catch((err) => {
       console.error(err);
       res.status(err.code || 500).send(err);
